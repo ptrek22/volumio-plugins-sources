@@ -1,0 +1,8 @@
+{
+  "TOKEN":"Authorization Token",
+  "ENTITY_ID": "Entity ID",
+  "TITLE": "HA command executor",
+  "SAVE":"Save",
+  "CONFIG":"Configuration",
+  "ADDRESS":"HA IP Address:Port"
+}

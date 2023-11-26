@@ -1,0 +1,46 @@
+{
+  "page": {
+      "label": "TRANSLATE.TITLE"
+  },
+  "sections": [
+               {
+               "id": "conifg",
+               "element": "section",
+               "label": "TRANSLATE.CONFIG",
+               "icon": "fa-plug",
+               "onSave": {"type":"controller", "endpoint":"system_hardware/command_executor", "method":"saveOptions"},
+               "saveButton": {
+                      "label": "TRANSLATE.SAVE",
+                      "data": [
+                                "ha_entity_id",
+                                "ha_authorization_token",
+                                "ha_address"
+                                ]
+                },
+                "content": [
+                            
+                            {
+                            "id": "ha_entity_id",
+                            "element": "input",
+                            "type": "string",
+                            "label": "TRANSLATE.ENTITY_ID",
+                            "value": ""
+                            },
+                            {
+                              "id": "ha_authorization_token",
+                              "element": "input",
+                              "type": "string",
+                              "label": "TRANSLATE.TOKEN",
+                              "value": ""
+                            },
+                            {
+                              "id": "ha_address",
+                              "element": "input",
+                              "type": "string",
+                              "label": "TRANSLATE.ADDRESS",
+                              "value": ""
+                            }
+                ]
+              }
+            ]
+}

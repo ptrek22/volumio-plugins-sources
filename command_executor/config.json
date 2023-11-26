@@ -1,0 +1,14 @@
+{
+    "ha_entity_id":{
+        "type": "string" ,
+        "value": "default"
+    },
+    "ha_authorization_token":{
+        "type": "string",
+        "value": "default"
+    },
+    "ha_address":{
+        "type": "string",
+        "value": "default"
+    }
+}
